@@ -9,7 +9,7 @@ Block popups that popups when an adblock is detected.
 ## Install dev version
 
 - clone this repo `git clone git@github.com:masterwendu/adblock-blocker-blocker.git`
-- if you have firefox [click here](#Firefox), chrome [click here](#Chrome)
+- if you use Firefox [continue at Firefox](#Firefox) or Chrome [continue at Chrome](#Chrome)
 - open one of the pages with adblock and you should not see any popup
 
 ### Firefox
