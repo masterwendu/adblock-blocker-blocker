@@ -1,0 +1,20 @@
+{
+  "name": "adblock-blocker-blocker",
+  "version": "0.1",
+  "description": "Block popups that popups when an adblock is detected.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.golem.de/*"
+      ],
+      "css": ["golem.de.css"]
+    },
+    {
+      "matches": [
+        "https://t3n.de/*"
+      ],
+      "css": ["t3n.de.css"]
+    }
+  ]
+}
